@@ -1,11 +1,29 @@
 
 @import url ('https://fonts.googleapis.com/css?family=Oswald:300,700');
 
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+    margin: 0 auto -300px;
+}
+.footer, .push {
+    height: 300px;
+}
+/* Code above allowed me to create sticky footers: http://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page */
+
 /*home*/
-div {
+/*div {
   border: 1px solid black;
    outline-color: red;
-}
+}*/
 
 .body {
 background-color:white;
@@ -21,12 +39,10 @@ outline: 1px solid lime;
   height:100px;
   width: 100%;
   position: fixed;
-  margin: -10px;
   z-index: 99;
 }
 
 .nav{
-    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 
@@ -66,6 +82,7 @@ outline: 1px solid lime;
   float: right;
   margin-top: 40px;
   font-family: 'Oswald', sans-serif;
+  margin-right:10%;
 
 }
 
@@ -91,8 +108,9 @@ a:hover {
 .homepicture img {
   width: 100%;
   margin-top: 100px;
-  float: left;
-  padding-bottom: 200px
+  position:absolute;
+  z-index: -1;
+  padding-bottom: 300px;
 }
 
 .whitebox{
@@ -100,7 +118,6 @@ a:hover {
   width: 100%;
   height: 300px;
   position: fixed;
-  margin-top: 575px;
   -webkit-filter: opacity: (90%);
   filter: opacity(90%);
 
@@ -110,35 +127,41 @@ a:hover {
   font-family: 'Oswald', sans-serif;
   font-size: 10rem;
   position: fixed;
-  margin-top: 530px;
+  margin-top: 75px;
   font-style: oblique;
   text-align: right;
+  width: 100%;
+  text-align: center;
 }
 
 .solomondraderpink{
   font-family: 'Oswald', sans-serif;
   font-size: 10rem;
   position: fixed;
-  margin-top:505px;
+  margin-top: 55px;
   font-style: oblique;
   text-align: right;
   color: #ffb1ff;
+  width: 100%;
+  text-align: center;
 }
 
 .solomondraderwhite{
   font-family: 'Oswald', sans-serif;
   font-size: 10rem;
   position: fixed;
-  margin-top: 480px;
+  margin-top: 35px;
   font-style: oblique;
   text-align: right;
   color: white;
+  width: 100%;
+  text-align: center;
 }
 
 /*about*/
 .aboutbackground{
   background-color: #ffb1ff;
-  height:1255px;
+  height: 1835px;
   width:100%;
 }
 
@@ -149,14 +172,14 @@ a:hover {
   font-style: oblique;
   text-align: right;
   padding-left: 40px;
-  margin-top: 150px;
+  margin-top: 20%;
   line-height: 90%;
   color: white;
 }
 
 .arrow{
 float: left;
-margin-top: 200px;
+margin-top: 22%;
 margin-left: 700px;
 }
 
@@ -168,16 +191,14 @@ margin-left: 700px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  margin-left: 43%;
-  margin-top:150px;
+  margin-left: -300px;
+  margin-top: 60%;
 
 }
 /*contact*/
 
-.contactbackground{
-  background-color: #ffb1ff;
-  height:687px;
-  width:100%;
+.contactbod{
+  background-color: #ffb1ff
 }
 
 .contact{
@@ -186,19 +207,13 @@ margin-left: 700px;
   float: left;
   font-style: oblique;
   text-align: right;
-  padding-left: 40px;
+  margin-left: 40px;
   margin-top: 150px;
   line-height: 90%;
   color: white;
+  border-bottom: 1px solid white;
 }
 
-.contactline{
-  width:45%;
-  margin-left: 5%;
-  border: 1px solid white;
-  outline-color: white;
-  float: left;
-}
 
 .insta img{
 position: absolute;
@@ -262,31 +277,32 @@ margin-left: -580px;
 }
 
 .swirlylogo img{
-width:24%;
-margin-top: -120px;
-margin-right: 140px;
-float: right;
+position: absolute;
+width:25%;
+margin-left: 20%;
+margin-top: 10%;
 }
 
 /* Portfolio*/
 
 .blob img{
-  float: left;
-  width: 1400px;
+  position: absolute;
+  width: 80%;
   margin-top: 150px;
+  z-index: -10;
 }
 
-.picturesbox{
-
-
-
+.imagesizing{
+  width: 80%;
+  margin-left: 10%;
 }
+
 
 .kidz img{
-  position: absolute;
-  margin-top: 500px;
-  margin-left: -1150px;
-  width: 300px;
+  float: left;
+  margin-top: 40%;
+  margin-left: 10%;
+  width: 20%;
 
 }
 
@@ -295,34 +311,36 @@ float: right;
     filter: invert(100%);
 }
 
-.celloman img{
-  position: absolute;
-  margin-top: 450px;
-  margin-left: -390px;
-  width: 200px;
-}
-
-.celloman:hover img{
-  -webkit-filter: invert(100%);
-    filter: invert(100%);
-  }
 
 .lovers img{
-  position: absolute;
-  margin-top: 230px;
-  margin-left: -750px;
-  width: 150px;
+  float: left;
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 10%;
 }
+
 .lovers:hover img{
   -webkit-filter: invert(100%);
     filter: invert(100%);
   }
 
+  .celloman img{
+    float: left;
+    margin-top: 30%;
+    margin-left: 25%;
+    width: 10%;
+  }
+
+  .celloman:hover img{
+    -webkit-filter: invert(100%);
+      filter: invert(100%);
+    }
+
 .pif img{
-  position: absolute;
-  margin-top: 680px;
-  margin-left: -780px;
-  width: 250px;
+  float: left;
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 6%;
 }
 .pif:hover img{
   -webkit-filter: invert(100%);
@@ -330,10 +348,10 @@ float: right;
   }
 
 .face img{
-  position: absolute;
-  margin-top: 950px;
-  margin-left: -460px;
-  width: 290px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 11%;
+  width: 20%;
 }
 .face:hover img{
   -webkit-filter: invert(100%);
@@ -341,10 +359,10 @@ float: right;
   }
 
 .radruby img{
-  position: absolute;
-  margin-top: 1200px;
-  margin-left: -1050px;
-  width: 600px;
+  float: left;
+  margin-top: 40%;
+  margin-left: -60%;
+  width: 30%;
 }
 .radruby:hover img{
   -webkit-filter: invert(100%);
@@ -352,10 +370,10 @@ float: right;
   }
 
 .plasticbeach img{
-  position: absolute;
-  margin-top: 900px;
-  margin-left: -1080px;
-  width: 300px;
+  float: left;
+  margin-top: 50%;
+  margin-left: -20%;
+  width: 20%;
 }
 .plasticbeach:hover img{
   -webkit-filter: invert(100%);
@@ -363,10 +381,10 @@ float: right;
   }
 
 .others img{
-  position: absolute;
-  margin-top: 1840px;
-  margin-left: -980px;
-  width: 650px;
+  float: left;
+  margin-top: 95%;
+  margin-left: -50%;
+  width: 50%;
 }
 .others:hover img{
   -webkit-filter: invert(100%);
@@ -374,10 +392,10 @@ float: right;
   }
 
 .mountain img{
-  position: absolute;
-  margin-top: 1400px;
-  margin-left: -450px;
-  width: 300px;
+  float: left;
+  margin-top: 80%;
+  margin-left: -60%;
+  width: 20%;
 }
 .mountain:hover img{
   -webkit-filter: invert(100%);
