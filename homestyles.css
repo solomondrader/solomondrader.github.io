@@ -2,10 +2,10 @@
 @import url ('https://fonts.googleapis.com/css?family=Oswald:300,700');
 
 /*home*/
-/*div {
+div {
   border: 1px solid black;
    outline-color: red;
-}*/
+}
 
 .body {
 background-color:white;
@@ -272,10 +272,15 @@ float: right;
 
 .blob img{
   float: left;
-  width: 100%;
+  width: 1400px;
   margin-top: 150px;
 }
 
+.picturesbox{
+
+
+
+}
 
 .kidz img{
   position: absolute;
