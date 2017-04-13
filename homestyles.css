@@ -1,0 +1,380 @@
+
+@import url ('https://fonts.googleapis.com/css?family=Oswald:300,700');
+
+/*home*/
+/*div {
+  border: 1px solid black;
+   outline-color: red;
+}*/
+
+.body {
+background-color:white;
+margin: 0;
+outline: 1px solid lime;
+
+}
+
+
+
+.header {
+  background-color:white;
+  height:100px;
+  width: 100%;
+  position: fixed;
+  margin: -10px;
+  z-index: 99;
+}
+
+.nav{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.logo{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.logo:hover img{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+  -webkit-filter: opacity(0%);
+    filter: opacity(0%);
+}
+
+.pinklogo img{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+  -webkit-filter: opacity(0%);
+    filter: opacity(0%);
+
+}
+
+.pinklogo:hover img{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+  -webkit-filter: opacity(100%);
+    filter: opacity(100%);
+}
+
+.links{
+  float: right;
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+a:link {
+    color: black;
+
+    text-decoration: none;
+  }
+
+  a:visited {
+      color: black;
+
+  }
+
+
+a:hover {
+  color: #ffb1ff;
+}
+
+
+
+.homepicture img {
+  width: 100%;
+  margin-top: 100px;
+  float: left;
+  padding-bottom: 200px
+}
+
+.whitebox{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  margin-top: 575px;
+  -webkit-filter: opacity: (90%);
+  filter: opacity(90%);
+
+}
+
+.solomondrader{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  position: fixed;
+  margin-top: 530px;
+  font-style: oblique;
+  text-align: right;
+}
+
+.solomondraderpink{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  position: fixed;
+  margin-top:505px;
+  font-style: oblique;
+  text-align: right;
+  color: #ffb1ff;
+}
+
+.solomondraderwhite{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  position: fixed;
+  margin-top: 480px;
+  font-style: oblique;
+  text-align: right;
+  color: white;
+}
+
+/*about*/
+.aboutbackground{
+  background-color: #ffb1ff;
+  height:1255px;
+  width:100%;
+}
+
+.artist{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  position: fixed;
+  font-style: oblique;
+  text-align: right;
+  padding-left: 40px;
+  margin-top: 150px;
+  line-height: 90%;
+  color: white;
+}
+
+.arrow{
+float: left;
+margin-top: 200px;
+margin-left: 700px;
+}
+
+
+.artisttext{
+  width: 500px;
+  height: 500px;
+  float:left;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  margin-left: 43%;
+  margin-top:150px;
+
+}
+/*contact*/
+
+.contactbackground{
+  background-color: #ffb1ff;
+  height:687px;
+  width:100%;
+}
+
+.contact{
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  float: left;
+  font-style: oblique;
+  text-align: right;
+  padding-left: 40px;
+  margin-top: 150px;
+  line-height: 90%;
+  color: white;
+}
+
+.contactline{
+  width:45%;
+  margin-left: 5%;
+  border: 1px solid white;
+  outline-color: white;
+  float: left;
+}
+
+.insta img{
+position: absolute;
+margin-top: 350px;
+margin-left: -580px;
+}
+
+.instatext{
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 145px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.fb img{
+  position:absolute;
+  margin-top: 500px;
+  margin-left: -580px;
+}
+
+.fbtext{
+  position: absolute;
+  margin-top: 515px;
+  margin-left: 145px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.phone img{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -250px;
+}
+
+.phonetext{
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 475px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.email img{
+  position: absolute;
+  margin-top: 495px;
+  margin-left: -250px;
+}
+
+.emailtext{
+  position: absolute;
+  margin-top: 515px;
+  margin-left: 475px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+.swirlylogo img{
+width:24%;
+margin-top: -120px;
+margin-right: 140px;
+float: right;
+}
+
+/* Portfolio*/
+
+.blob img{
+  float: left;
+  width: 100%;
+  margin-top: 150px;
+}
+
+
+.kidz img{
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -1150px;
+  width: 300px;
+
+}
+
+.kidz:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.celloman img{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: -390px;
+  width: 200px;
+}
+
+.celloman:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.lovers img{
+  position: absolute;
+  margin-top: 230px;
+  margin-left: -750px;
+  width: 150px;
+}
+.lovers:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.pif img{
+  position: absolute;
+  margin-top: 680px;
+  margin-left: -780px;
+  width: 250px;
+}
+.pif:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.face img{
+  position: absolute;
+  margin-top: 950px;
+  margin-left: -460px;
+  width: 290px;
+}
+.face:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.radruby img{
+  position: absolute;
+  margin-top: 1200px;
+  margin-left: -1050px;
+  width: 600px;
+}
+.radruby:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.plasticbeach img{
+  position: absolute;
+  margin-top: 900px;
+  margin-left: -1080px;
+  width: 300px;
+}
+.plasticbeach:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.others img{
+  position: absolute;
+  margin-top: 1840px;
+  margin-left: -980px;
+  width: 650px;
+}
+.others:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+.mountain img{
+  position: absolute;
+  margin-top: 1400px;
+  margin-left: -450px;
+  width: 300px;
+}
+.mountain:hover img{
+  -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
